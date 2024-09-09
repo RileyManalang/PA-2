@@ -1,6 +1,7 @@
 # PA-2
 This is a compilation of my work and journal in coding the problems in PA 2
 
+- In the first cell it is important to import the numpy library first and foremost to accsess its features
 - For the first problem, I followed the instructions and used the provided syntax, which is .std and .mean then I had a gap in knowledge about saving a file, which I discovered was np.save("name file", variable)
 -The only challenge in the first problem was knowing how to save a .npy file in the notebook
 
