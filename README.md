@@ -63,4 +63,8 @@ np.save('div_by_3.npy', b)
 - How to save the file to a npy file
 - Controlling the array size and shape along with the contents
 
+## Learnings
+- Learned to save a file to a numpy file
+- Managed to differentiate the functions of np.reshape and np.resize
+
 
