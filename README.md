@@ -1,5 +1,7 @@
 # PA-2
-This is a compilation of my work and journal in coding the problems in PA 2
+
+### Version 
+- Python 3.12.4 (Jupyter Notebook)
 
 For starters:
 In the first cell, it is essential to import the numpy library first and foremost to access its features
