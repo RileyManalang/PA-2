@@ -8,7 +8,7 @@ In the first cell, it is essential to import the numpy library first and foremos
 
 # 1st Problem: Normalization Problem
 
-> The problem is basically normalizing data (random numbers), which involves centering and scaling processes. We were also instructed to use .mean() and .std() calls. Other conditions were make a 5x5 ndarray with randomized data numbers then save it as an .npy file. 
+> The problem is basically normalizing data (random numbers), which involves centering and scaling processes. We were also instructed to use `.mean()` and `.std()` calls. Other conditions were make a 5x5 ndarray with randomized data numbers then save it as an .npy file. 
 ```
 #access the numpy library
 import numpy as np
@@ -29,7 +29,7 @@ import numpy as np
 #save the file to a numpy file
  np.save('X_normalized.npy',Z) 
 ```
-- For the first problem, I followed the instructions and used the provided syntax, which is .std and .mean then I had a gap in knowledge about saving a file, which I discovered was np.save("name file", variable)
+- For the first problem, I followed the instructions and used the provided syntax, which is .std and .mean then I had a gap in knowledge about saving a file, which I discovered was `np.save("name file", variable)`
 - The only challenge in the first problem was knowing how to save a .npy file in the notebook
 
 # 2nd Problem: Divisible by 3 Problem
@@ -58,7 +58,7 @@ print (b)
 np.save('div_by_3.npy', b)
 ```
 - In the second problem, which was divisible by three problem, I first tried a syntax, but unfortunately, it was invalid. I then backtracked with the lecture notes, then I discovered the `np.arange` feature which helped me control the contents of the array. Then, I squared every element in the array.
-- After getting the desired content, making it a 10 x 10 matrix was challenging. After reviewing the lecture notes again, I thought of using the reshape or resize, but I decided on just using the np.reshape feature since this will allow me to change the shape of the data while retaining its contents.
+- After getting the desired content, making it a 10 x 10 matrix was challenging. After reviewing the lecture notes again, I thought of using the reshape or resize, but I decided on just using the `np.reshape` feature since this will allow me to change the shape of the data while retaining its contents.
 - After making it a 10 x 10 matrix, I used a modulo to test for data in the matrix to see if it is divisible by 3. Then, I saved the data just like I did in the first problem
 
 ## Challenges
@@ -67,6 +67,8 @@ np.save('div_by_3.npy', b)
 
 ## Learnings
 - Learned to save a file to a numpy file
-- Managed to differentiate the functions of np.reshape and np.resize
+- Managed to differentiate the functions of `np.reshape` and `np.resize`
 
+#### Version History:
+##### [v1.0.0] - 9/7/2024
 
